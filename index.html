@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>All About Me</title>
+    <title>WDD 230 Assignment Portal</title>
 </head>
 <link rel="stylesheet" href="styles.css">
 <body>
@@ -26,7 +26,11 @@
     </main>
 </body>
 <footer>
-    <p>2020 | Nathaniel U. Mpamah | Utah BYU-I Online Learning<br>
-        <span style="color: yellow;"></style>Last Updated: 09/19/2020 16:00</p>
-</footer>
+        <p> © <span id = "currentyear"></span> | Nathaniel U Mpamah | Utah | <a href= "https://www.byui.edu">BYUI Online Learning</a><br>
+            <span style="color: yellow;"></style> Updated: <span id ="lastupdated"></span></p>
+   </footer>
+<script> document.getElementById("currentyear").innerHTML = (new Date().getFullYear())
+document.getElementById("lastupdated").innerHTML = document.lastModified;
+</script>
+
 </html>
