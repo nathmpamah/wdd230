@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Week 1 Assignment for WDD 230">
     <title>WDD 230 Assignment Portal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<link rel="stylesheet" href="styles.css">
+
 <body>
     <header>
         
@@ -21,16 +24,16 @@
                 <li>Lesson 04: <a href="https://google.com">Link</a> | <a href="https://google.com">Link</a> <br></li>
           
         </ul>  
-        <img src="https://cdn.glitch.com/0d5d6af8-08e1-4253-905f-a80576483dc1%2FMee%20(1).jpg?v=1569391225021" id="myPic">
-    
+        <img src="https://cdn.glitch.com/0d5d6af8-08e1-4253-905f-a80576483dc1%2FMee%20(1).jpg?v=1569391225021" id="myPic" alt="My Selfie">
+    </div>
+    </div>
     </main>
-</body>
-<footer>
-        <p> © <span id = "currentyear"></span> | Nathaniel U Mpamah | Utah | <a id = 'aCOLOR' href= "https://www.byui.edu">BYUI Online Learning</a><br>
-            <span style="color: yellow;"></style> Updated: <span id ="lastupdated"></span></p>
-   </footer>
+
+<footer><p> © <span id = "currentyear"></span> | Nathaniel U Mpamah | Utah | <a id = 'aCOLOR' href= "https://www.byui.edu">BYUI Online Learning</a><br>
+    <span style="color: yellow;"> Updated: <span id ="lastupdated"></span></span></p>
+</footer>     
 <script> document.getElementById("currentyear").innerHTML = (new Date().getFullYear())
 document.getElementById("lastupdated").innerHTML = document.lastModified;
 </script>
-
+</body>
 </html>
