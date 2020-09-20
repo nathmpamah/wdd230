@@ -202,7 +202,7 @@ header {
   background-color: #e7c24f;
   font-size: 1.2em;
 }
-h2 {
+h1 {
   font-family: "Merienda One", cursive;
   font-size: 40px;
   background-color: rgba(99, 6, 6, 0.966);
@@ -226,7 +226,7 @@ h2 {
   background-color: #0076B6;
 }
 */
-h1 {
+h2 {
   color: black;
   border-bottom: 2px solid black;
   font-size: 25px;

@@ -1,2 +1,2 @@
-document.getElementById("year").innerHTML = (new Date().getFullYear())
-document.getElementById("updated").innerHTML = document.lastModified;
+document.getElementById("currentyear").innerHTML = (new Date().getFullYear())
+document.getElementById("lastupdated").innerHTML = document.lastModified;
