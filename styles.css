@@ -203,7 +203,7 @@ header {
   font-size: 1.2em;
 }
 h1 {
-  font-family: "Merienda One", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   background-color: rgba(99, 6, 6, 0.966);
   color: White;
@@ -230,7 +230,7 @@ h2 {
   color: black;
   border-bottom: 2px solid black;
   font-size: 25px;
-      
+  font-family: 'Montserrat', sans-serif;    
 }
 p {
   line-height: 20px;
@@ -290,3 +290,5 @@ footer {
 
 
 /* end of media query */
+
+
