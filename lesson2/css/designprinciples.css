@@ -23,6 +23,8 @@ body {
 header {
     text-align: center;
     border-style: solid;
+    background-color: lightblue;
+    border-radius: 150px
 }
 
 img {
@@ -52,6 +54,7 @@ h3 {
     background-color: lightblue; 
     font-size: 1.75em;
     font-family: "Impact", Charcoal, sans-serif;
+    border-radius: 20px;
 }
 
 p {
@@ -61,4 +64,8 @@ p {
 .link {
     display: grid; 
     text-align: center; 
+}
+footer{
+    background-color: lightblue;
+
 }
