@@ -1,18 +1,24 @@
-@media screen and (max-width: 560px) {
-    main {grid-template-columns: 1fr 1fr;
+@media only screen and (min-width: 560px) {
+    main { 
+        /* grid-template-columns: 1fr 1fr; */
+        padding: 8em;
+        padding-top: 2em;
     }
- }
  
-nav ul {
+    nav ul {
     display: flex;
-}
+    }
 
-nav ul li {
+    nav ul.hide {
+        display: flex;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul li {
     flex: 1 1 100%;
+    }
+
 }
-
-nav a {
-    font-size: 1.5rem;
-}
-
-

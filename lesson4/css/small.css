@@ -19,12 +19,20 @@ header
     }
 
 #logo {
-    /*float: left;*/
+        max-width: 100px;
+        margin-left: 10px;
+    /*float: left;
     max-width: 20%;
     background-color: white;
-    border-radius: 45px;
+    border-radius: 45px;*/
 }
 
+#slogan {
+    margin-left: -80px;
+    margin-top: -55px;
+    padding: 1em;
+    grid-column: 2/3;
+}
 nav {
     font-family: 'Merriweather Sans', sans-serif;
     background-color: rgb(6, 174, 252);
@@ -68,6 +76,12 @@ main {
     background-color: lightgray;
 }
 
+.placeholder {
+    background-color:lightgrey;
+    border: dashed 1px black;
+    padding: 2em;
+    margin: 10px;
+}
 h2 {
     font-size: 26px;
 }
@@ -82,20 +96,20 @@ h3 {
     font-family: 'Merriweather Sans', sans-serif;
 }
 
+h1 {
+    padding: .5em;
+    margin-left: -80px;
+    font-size: 24px;
+}
 section {
     padding: 1em;
 }
 
-#logo_img {
-    max-width: 20%;
-    margin-left: 3em;
-}
-
-img{
+/*img{
     max-width: 30%;
     border: lightblue solid 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    }
+    }*/
 
 
 footer {
@@ -104,6 +118,7 @@ footer {
     background-color: rgb(50, 49, 145);
     height: 40px;
     align-items: center;
+    color: white;
 }
 
 
