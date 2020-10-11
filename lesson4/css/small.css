@@ -9,10 +9,11 @@ header
     font-family: 'Merriweather Sans', sans-serif;
     background-color: rgb(50, 49, 145);
     color: white;
-   	display: flex;
-	grid-template-columns: 1fr 1fr 1fr;
-    padding: 1.5em;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       padding: 1.5em;
     }
+       
 
 #logo {
         max-width: 100px;
@@ -27,6 +28,8 @@ header
 #slogan {
     margin-left: 100px;
     margin-top: 60px;
+    margin-bottom: 0px;
+    grid-row-start: 1;
     
 }
 nav {
