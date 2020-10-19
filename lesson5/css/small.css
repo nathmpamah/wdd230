@@ -228,3 +228,10 @@ h3,
         color: #037171;
         margin-left: 2em;
 }
+.contentbox, .contentbox-hero, .contentbox-forecast, .contentbox-contact{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 20px auto;
+    background-color: #555;
+}
