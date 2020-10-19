@@ -61,6 +61,12 @@ nav ul li a:hover{
     color: black;
 }
 
+nav a.active{
+    background-color: black;
+    color: white;
+    
+}
+
 main {
     font-family: 'Merriweather', serif;
     padding: 1em;
@@ -113,6 +119,14 @@ footer {
     height: 40px;
     align-items: center;
     color: white;
+}
+
+.weather_summary{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    margin: 20px auto;
+    background-color: #555;
 }
 
 

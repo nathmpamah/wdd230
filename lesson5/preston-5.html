@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <title>Nate's Weather | Preston</title>
 </head>
 
@@ -25,20 +26,58 @@
 <nav>
     <ul id="nav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">Preston</a></li>
-        <li><a href="#">Soda Springs</a></li>
-        <li><a href="#">Fish Haven</a></li>
-        <li><a href="#">Storm Center</a></li>
-        <li><a href="#">Gallery</a></li>
+        <li class="active"><a href="preston-5.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</ali>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
     </ul>
 </nav>
 <main>
 
+    <div class="hero">
     <section class="placeholder">
-        <h3>Hero Image</h3>
+        <h3>Weather Summary</h3>
+        <img class='hero_img ' src="images/banner.jpg" alt="photo of preston">
+           <section class="weather_summary">
+                <p>Currently: Cloudy</p>
+                <p>High: 70&deg; F</p>
+                <p>Windchill: 35&deg; F</p>
+                <p>Humidity: 15%</p>
+                <p>Windspeed: 0 MPH</p>
+            </section>
     </section>
+    </div>   
+
     <section class="placeholder">
         <h3>Five Day Forecast</h3>
+        <h2> 5 day Forecast</h2>
+            <table style ="width:100%" class="forecast-table">
+                <tr>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                  </tr>
+                  <tr>
+                    <td><img src="images/cloudy.png" alt="cloudy icon"></td>
+                    <td><img src="images/cloudy.png" alt="cloudy icon"></td>
+                    <td><img src="images/sunny.png" alt="sunny icon"></td>
+                    <td><img src="images/rainy.jpg" alt="rainy icon"></td>
+                    <td><img src="images/sunny.jpg" alt="sunny icon"></td>
+                  </tr>
+                  <tr>
+                    <td><h3>36 &deg; F</h3></td>
+                    <td><h3>40 &deg; F</h3></td>
+                    
+                    
+                    <td><h3>56&deg; F</h3></td>
+                    <td><h3>37&deg; F</h3></td>
+                    <td><h3>44&deg; F</h3></td>
+                  </tr>
+
+            </table
     </section>
     <section class="placeholder">
         <h3>Article</h3>
