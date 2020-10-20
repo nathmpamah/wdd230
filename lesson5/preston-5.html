@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Nathaniel Mpamah">
-    <meta name="description" content="Lesson 04 Homework">
+    <meta name="description" content="Lesson 05 Homework">
     <meta name="description2" content="Nate's Weather offers up-to-date weather forcast information for users.">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -23,11 +23,13 @@
         <img src="images/logo.png" alt="Nate's Weather Logo" id="logo">
         <p id="slogan">Lookout before you step out...</p>
         </header>
-<nav>
-    <ul id="nav">
-        <li><a href="#">Home</a></li>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;Menu</button>
+            
+    <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
         <li class="active"><a href="preston-5.html">Preston</a></li>
-        <li><a href="sodasprings.html">Soda Springs</ali>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
         <li><a href="fish-haven.html">Fish Haven</a></li>
         <li><a href="stormcenter.html">Storm Center</a></li>
         <li><a href="gallery.html">Gallery</a></li>
@@ -35,6 +37,7 @@
 </nav>
 <main>
 
+    <p id="banner_txt">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</p>
     <div class="hero">
     <section class="placeholder">
         <h3>Preston Idaho</h3>
@@ -89,14 +92,14 @@
     <section class="placeholder">
                 <h3>Contact Information</h3>
                 <img class='preston-map' src="images/map.png" alt="map of preston">
-                <p><i class="material-icons">place</i> 53N 2nd E Preston, ID 83263</p>
-                <p><i class="material-icons">local_phone</i> (472) 827-7828</p>
+                <p><i class="material-icons">Address</i> 23N 1st E Street Preston, ID 83263</p>
+                <p><i class="material-icons">Phone</i> (208) 999-9999</p>
                 <p><i class="material-icons">local_post_office</i> huc@hel.cy</p>
                 <div class="social">
                     <a href="http://www.facebook.com" target="_blank"><img  class='fb' src="https://byui-cit.github.io/wdd130/images/icons/color/facebook.png" alt="facebook icon"></a>
                     <a href="http://www.instagram.com" target="_blank"><img class='ig' src="https://byui-cit.github.io/wdd130/images/icons/color/instagram.png" alt="instagram icon"></a>
                     <a href="http://www.youtube.com" target="_blank"><img class='yb' src="https://byui-cit.github.io/wdd130/images/icons/color/youtube.png" alt="youtube icon"></a>
-
+                </div>
     </section>
 </main>
 

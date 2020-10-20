@@ -57,6 +57,11 @@ nav ul li a:hover{
     color: #12130F;
 }
 
+nav ul li.active a {
+    background-color: rgba(0,0,0,0.2);
+    color:#fff;
+}
+
 .active {
     color: black;
 }
@@ -247,7 +252,8 @@ h3,
     margin: 50px;
 }
 .cloudy {
-    align-items: right; 
+    align-items: center; 
+    
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
     float: right;
     width: 30%;   
@@ -269,3 +275,13 @@ h3,
         height: 350px;
        
  }
+
+ .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav ul.hide{
+    display: none;
+  }
