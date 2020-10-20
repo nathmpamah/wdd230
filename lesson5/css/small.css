@@ -228,10 +228,20 @@ h3,
         color: #037171;
         margin-left: 2em;
 }
-.contentbox, .contentbox-hero, .contentbox-forecast, .contentbox-contact{
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    margin: 20px auto;
-    background-color: #555;
+
+.forecast_table,th,td {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 80%;
+    text-align:center;
+    border: 1px solid black;
+    font-family: Mukta, Helvetica, sans-serif;
+    margin: 50px;
 }
+.cloudy {
+    align-items: right; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+    float: right;
+    width: 30%;
+        
+   }
