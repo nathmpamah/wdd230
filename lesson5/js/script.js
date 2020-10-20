@@ -5,7 +5,7 @@ var year = new Date();{
 
 function toggleMenu(){
     
-   document.getElementById("primaryNav").classList.toggle("hide")
+   document.getElementById("primaryNav").classList.toggle("hide");
 
 
 }
