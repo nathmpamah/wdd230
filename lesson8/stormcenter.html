@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathaniel Mpamah">
+    <meta name="description" content="Lesson 07 Homework">
+    <meta name="description2" content="Nate's Weather offers up-to-date weather forcast information for users.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <title>Nate's Weather | Gallery</title>
+</head>
+
+<body>
+    
+    <div id="whole-page">
+         <header>
+        <h1>Nate's Weather</h1>
+        <img src="images/logo.png" alt="Nate's Weather Logo" id="logo">
+        <p id="slogan">Lookout before you step out...</p>
+        </header>
+<nav class="clearfix">
+    <button onclick="toggleMenu()">&#9776;Menu</button>
+            
+    <ul id="primaryNav" class="hide">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="preston-5.html">Preston</a></li>
+        <li><a href="sodasprings.html">Soda Springs</a></li>
+        <li><a href="fish-haven.html">Fish Haven</a></li>
+        <li><a href="stormcenter.html">Storm Center</a></li>
+        <li class="active"><a href="gallery.html">Gallery</a></li>
+    </ul>
+</nav>
+<main>
+    <h3>Storm Center</h3>
+    <form method='get' action="../lesson8/thanks.html">
+        <div class='form-item'>
+            <label for="firstname" class='required'> First Name</label>
+                <input type="text" name='firstname' pattern='(\w| ){5,}' required>
+        </div>
+        <div class='form-item'>
+            <label for="lastname" class='required'> Last Name</label>
+                <input type="text" name='lastname' pattern='(\w| ){5,}' required>
+        </div>
+        <div class='form-item'>
+            <label for="email"> Email</label>
+                <input type="email" name='email' placeholder="sample@gmail.com">                 
+        </div>
+        <div class='form-item'>
+            <label for="phone" class='required'> Phone</label>
+                <input type="tel" name='phone' placeholder="1234567890" required>                  
+        </div>
+        <div class='form-item'>
+            <label for="zipcode" class='required'> Zip Code</label>
+                <input type="number" name='zipcode' required>
+        </div>
+        <div class='form-item'>
+            <label for="stormdate"> Storm Date</label>
+                <input type="date" name='stormdate'>
+        </div>
+        <div class='form-item'>
+            <label for="stormtype"> Storm Type</label>
+                <input list='stormtype' id='type' name='type'>
+        </div>
+        <datalist id="stormtype">
+            <option value="Flash Flood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
+        </datalist>
+        <div class='form-item'>
+            <label class="severity" for="rating">Rating: &nbsp;&nbsp;&nbsp;
+                <input type="range" id="rating" value="5" min="1" max="10" step="1" 
+                list="severity" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label>
+        </div>
+        <datalist id="severity">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+        </datalist>
+        <div class='form-item'>
+            <label class='stormregion'>Storm Region
+                <select name="subject">
+                    <option value="">Select Region</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodaspring">Soda Spring</option>
+                    <option value="fishhaven">Fish Haven</option>
+                </select>
+            </label>
+        </div>
+        <div class='form-item'>
+            <label class='levelrate'>User In-danger Level
+            <label class='level'><input type='radio' name='level' value='yes'> Yes</label>
+            <label class='level'><input type='radio' name='level' value='maybe'> Maybe</label>
+            <label class='level'><input type='radio' name='level' value='no'> No</label>
+            </label>
+        </div>
+        <div class='form-item'>
+            <label for="comment">Additional Information or Comment</label>
+            <textarea name="comment" id="comment" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            <button class='form-item-button' type='submit'>Form Submission</button>
+        </div>
+    </form>
+</main>
+
+
+<footer> <p> © 2020<span id = "currentyear"></span> | Nathaniel U Mpamah | Utah |<br>
+    <p id="date"></p>
+</footer> 
+<script src="js/script.js"></script>
+
+    </div>
+</body>
+</html>
