@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Satisfy&display=swap');
+body{
+    background-color: #F7F7F7;
+}
+h1 {
+    font-family: 'Satisfy', cursive;
+    color: rgb(42, 42, 201);
+    text-align:center;
+    font-size: 40px;
+}
+h2 {
+    font-family: 'Satisfy', cursive;
+}
+p {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
+img {
+    width: 50%;
+}
+section {
+    border: 1px solid grey;
+    text-align: center;
+    margin: 10px;
+    padding-bottom: 10px;
+    background-color:#B7C2C2;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+footer {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 12px;
+    text-align: center;   
+}
+footer a {
+    color:black;
+}
