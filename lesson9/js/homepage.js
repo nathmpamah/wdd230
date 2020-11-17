@@ -14,7 +14,7 @@ fetch(url)
         <P>Year Founded: ${towns[4].yearFounded}</P>
         <P>Population: ${towns[4].currentPopulation}</P>
         <P>Average Rainfall: ${towns[4].averageRainfall}</P></div>
-        <img src='../lesson9/images/town1.jpg' alt='${towns[4].photo}'>
+        <img src='/lesson9/images/town1.jpg' alt='${towns[4].photo}'>
         `;
         
         town1.innerHTML = h1;
@@ -26,7 +26,7 @@ fetch(url)
         <P>Year Founded: ${towns[1].yearFounded}</P>
         <P>Population: ${towns[1].currentPopulation}</P>
         <P>Average Rainfall: ${towns[1].averageRainfall}</P></div>
-        <img src='../lesson9/images/town2.jpg' alt='${towns[1].photo}'>
+        <img src='/lesson9/images/town2.jpg' alt='${towns[1].photo}'>
         `;
 
         town2.innerHTML = h2;
@@ -38,7 +38,7 @@ fetch(url)
         <P>Year Founded: ${towns[5].yearFounded}</P>
         <P>Population: ${towns[5].currentPopulation}</P>
         <P>Average Rainfall: ${towns[5].averageRainfall}</P></div>
-        <img src='../lesson9/images/town3.jpg' alt='${towns[5].photo}'>
+        <img src='/lesson9/images/town3.jpg' alt='${towns[5].photo}'>
         `;
         
         town3.innerHTML =h3;
