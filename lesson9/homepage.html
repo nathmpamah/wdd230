@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='description' content='Preston town weather forecast from Weather Check Website'>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/lesson9/css/small.css">
+    <link rel="stylesheet" href="/lesson9/css/medium.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="shortcut icon" href="/lesson9/images/favicon.ico">
+    <title>Nate's Weather | Homepage</title>
+</head>
+
+<body>
+    <div id='content'>
+        <header>
+            <img class='logo' src="/lesson9/images/logo.png" alt="Nate's weather logo">
+            <h1>Weather Check</h1>
+            <div>Watchout before you step out.</div>
+        </header>
+        <nav>
+            <ul class='navigation'>
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a href="../lesson9/homepage.html">Home</a></li>
+                <li><a href="../lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+                <li><a href="../lesson7/gallery-7.html" class='active'>Gallery</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Homepage</h2>
+            <section class='article'>
+                <img class='snowflake' src="/lesson9/images/bird.jpg" alt="bird">
+                <h3>A Bird Came Down the Walk</h3>
+                <p class='author'>By Emily Dickinson</p>
+                <p class='poem'>A bird came down the walk: He did not know I saw; He bit an angle-worm in halvesAnd ate the<br>
+                    fellow, raw.And then he drank a dew From a convenient grass,And then hopped sidewise to the<br>
+                    wallTo let a beetle pass. He glanced with rapid eyesThat hurried all abroad, —They looked like<br>
+                    frightened beads, I thought; He stirred his velvet headLike one in danger; cautious,I offered him a<br>
+                    crumb,And he unrolled his feathersAnd rowed him softer homeThan oars divide the ocean,Too<br>
+                    silver for a seam, Or butterflies, off banks of noon, Leap, plashless, as they swim.<br>
+                    <br>
+                    </p>
+            </section>
+            
+            <section class='town'>
+                <div id='town1'></div>
+                <div id='town2'></div>
+                <div id='town3'></div>
+            </section>
+        </main>
+        <footer>
+            <div id="copyright">
+                &copy; <span id='year'></span> | Nathaniel Mpamah | Utah | <a href="https://www.byui.edu">BYU-Idaho</a>
+                <br><span id='current-date'></span>
+            </div>
+        </footer>
+        <script src="/lesson9/js/homepage.js"></script>
+        <script src='/lesson9/js/style.js'></script>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
+    </script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Mukta', 'Sriracha']
+            }
+        });
+    </script>
+</body>
+
+</html>
