@@ -74,11 +74,12 @@ footer, footer a {
     font-size:13px;
 }
 .snowflake {
-    width:90%;
-    display:block;
+    width: 90%;
+    display: block;
     margin:0 auto;
     background-color: lightgray;
     align-items: center;
+    height: 60%;
     
 }
 .article {
