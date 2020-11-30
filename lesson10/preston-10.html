@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Nathaniel Mpamah">
+    <meta name="description" content="Lesson 10 Homework">
+    <meta name="description2" content="Nate's Weather offers up-to-date weather forcast information for users.">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Nate's Weather</title>
+</head>
+
+<body>
+    <div id="message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
+    <div id="page-container">
+        <header>
+            <img id="image-logo" src="images/logo.png" alt="website logo">
+            <h1 class="title">Nate's Weather</h1>
+            <p id="motto">Look out before you step out...</p>
+        </header>
+        <nav>
+            <ul id="nav" class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="current" href="preston-10.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>   
+            <div id="main-footer">
+            <main>
+                <div class="hero-div">
+                            <picture>
+                                <source media="(max-width: 425px)" srcset="images/todd-diemer-425-cropped.jpg">
+                                <source media="(max-width: 745px)" srcset="images/todd-diemer-745-cropped.jpg">
+                                <img id="hero-img" src="images/banner.jpg" alt="Preston hero image.">
+                            </picture>
+                    <section class="weather-overlay">
+                        <h2 class="summary-title">Weather Summary</h2>
+                        <table id="weather-summary-table">
+                            <tr>
+                                <td id="current-weather" class="table-keys">Currently: </td>
+                                <td class="table-values"><span class="capitalize" id="description"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table-keys">Current Temp: </td>
+                                <td class="table-values"><span id="temp"></span>°F</td>
+                            </tr>
+                            <tr>
+                                <td class="table-keys">Wind Chill: </td>
+                                <td class="table-values"><span id="wind-chill">n/a</span>°F</td>
+                            </tr>
+                            <tr>
+                                <td class="table-keys">Humidity: </td>
+                                <td class="table-values"><span id="humidity"></span>%</td>
+                            </tr>
+                            <tr>
+                                <td class="table-keys">Wind Speed: </td>
+                                <td class="table-values"><span id="wind"></span> mph</td>
+                            </tr>
+                        </table>
+                    </section>
+                </div>
+                <section id="five-day-forecast">
+                    <h2 class="forecast-title">5 Day Forecast</h2>
+                    <div id="forecast-grid">
+                        <div id="unit-grid-1">
+                            <p class="dow" id="day-1"></p>
+                            <img class="icons" id="sun-1" src="images/fullsun-medium-large-200x200px.png"
+                                alt="weather logo">
+                                <p id="temp-1"><span class="temp"></span>°F</p>
+                        </div>
+                        <div id="unit-grid-2">
+                            <p class="dow" id="day-2"></p>
+                            <img class="icons" id="sun-2" src="images/fullsun-medium-large-200x200px.png"
+                                alt="weather logo">
+                                <p id="temp-2"><span class="temp"></span>°F</p>
+                        </div>
+                        <div id="unit-grid-3">
+                            <p class="dow" id="day-3"></p>
+                            <img class="icons" id="sun-3" src="images/fullsun-medium-large-200x200px.png"
+                                alt="weather logo">
+                                <p id="temp-3"><span class="temp"></span>°F</p>
+                        </div>
+                        <div id="unit-grid-4">
+                            <p class="dow" id="day-4"></p>
+                            <img class="icons" id="sun-4" src="images/fullsun-medium-large-200x200px.png"
+                                alt="weather logo">
+                                <p id="temp-4"><span class="temp"></span>°F</p>
+                        </div>
+                        <div id="unit-grid-5">
+                            <p class="dow" id="day-5"></p>
+                            <img class="icons" id="sun-5" src="images/fullsun-medium-large-200x200px.png"
+                                alt="weather logo">
+                                <p id="temp-5"><span class="temp"></span>°F</p>
+                        </div>
+                    </div>
+                </section>
+                <section id="article-style">
+                    <h2>What Will Opening Day of Hunting Look Like For You?</h2>
+                    <p>by Sam Felt</p>
+                    <img id="article-image" src="images/idaho-winter.jpg"
+                        alt="Image of people walking down a road while hunting.">
+                    <p>Idaho has diverse climate types, with a predominantly continental flavor in the central and eastern regions (Köppen climate classification Dsa, Dsb). The western portion has a maritime influence (Köppen Cfb, Csb) from the Pacific Ocean. 
+                        Idaho lies in the Pacific Northwest region of the United States. The state borders with Montana and Wyoming in the east, Utah, and Nevada in the south, Oregon and Washington in the west, and the Canadian province of British Columbia in the north. 
+                        The variation in topography, altitude, geography, and proximity to the Pacific Ocean influences the climate.<br>
+                        <br>
+                        Idaho, the Gem State, is home to rugged mountain ranges, grassy valleys, arid plains, and fertile lowlands. The average elevation is 1520 meters above sea level, with the highest point at 3859 meters at Borah Peak. 
+                        The landscape is rugged, and the state has one of the largest natural areas in the United States. The Sawtooth Range is prominent, while others such as the Bitterroot Range, White Cloud Mountains, Clearwater Mountains, 
+                        and stretches of the Rocky Mountains constitute the chiefly mountainous regions. The principal rivers are Snake, Clearwater, and Salmon, while the Snake River Plain in the south has fertile agricultural land. The panhandle and areas north of the 
+                        Salmon River follow the Pacific Time Zone, while the south lies in the Mountain Time Zone.</p>
+
+                </section>
+
+                <div id="medium-size-grid">
+                    <div id="contact-information">
+                        <h3 id="location">Preston, Idaho 83263</h3>
+                        <img id="pin" src="images/pin.png" alt="A pin logo.">
+                        <h3 id="contact-title">Contact Information</h3>
+                        <img id="mail" src="images/mail.png" alt="A mail logo.">
+                        <p id="email">realweather@weather.com</p>
+                        <img id="phone" src="images/phone.png" alt="A phone logo.">
+                        <p id="phone-number">(720) 763-7592</p>
+                    </div>
+                    <div id="map">
+                        <img id="map-image" src="images/map.png" alt="Google maps image of Preston, Idaho.">
+                    </div>
+                    <div id="social-grid">
+                        <img id="twitter" src="images/twitter-icon.png" alt="Twitter icon">
+                        <img id="facebook" src="images/facebook-icon.png" alt="Facebook icon">
+                        <img id="instagram" src="images/insta-icon.png" alt="Instagram icon">
+                    </div>
+                    
+                </div>
+            </main>
+
+            <footer>
+                
+                &copy; <span id="copyright-year"></span> | Nate's Weather | Utah
+                <div><span id="current-date"></span></div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weather-summary.js"></script>
+    <script src="js/hamburger-menu.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/five-day-forecast.js"></script>
+   
+</body>
+
+</html>

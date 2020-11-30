@@ -1,0 +1,236 @@
+@media only screen and (min-width: 745px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+        text-align: center;
+	}
+	.navigation li:first-child {
+		display: none;
+    }
+    header {
+        grid-template-columns: 130px 1fr;
+    }
+    #image-logo {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    #motto {
+        margin-top: 105px;
+        padding-left: 3px;
+    }
+    .hero-div {
+        position: relative;
+    }
+
+    .weather-overlay {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 250px;
+        border-radius: 5px;
+    }
+
+    #article-image {
+       width: 400px; 
+       float: right;
+    }
+
+    #unit-grid-1,
+    #unit-grid-2,
+    #unit-grid-3,
+    #unit-grid-4,
+    #unit-grid-5 {
+        grid-template-rows: 30px 1fr 30px;
+    }
+
+    #day-1,
+    #day-2,
+    #day-3,
+    #day-4,
+    #day-5 {
+        font-size: 1.5rem;
+        padding-top: 5px;
+        line-height: .9em;
+    }
+
+    #temp-1,
+    #temp-2,
+    #temp-3,
+    #temp-4,
+    #temp-5 {
+        font-size: 1.5rem;
+        line-height: .8em;
+    }
+
+    #medium-size-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        background-color: #436CB1;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    #contact-information {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        height: 70%;
+        display: grid;
+        grid-template-columns: 25px 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        margin-left: 6rem;
+    }
+
+    #location {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        margin-left: 25px;
+        color: black;
+        margin-top: 4px;
+        text-align: left;
+        margin-left: 35px;
+    }
+
+    #pin {
+        max-width: 100%;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-left: 25px;
+    }
+
+    #map {
+        width: 100%;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #map-image {
+        width: 100%
+    }
+
+    footer {
+        height: 4rem;
+    }
+
+    #article-style {
+        margin-bottom: 40px;
+    }
+
+    #social-grid {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: -80px;
+    }
+
+    #forecast-grid {
+        grid-template-columns: 20% 20% 20% 20% 20%;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 1rem;
+    }
+    form label.sbs {
+        padding: .4rem 0;
+    }
+    form label.top input, form label.top select {
+        width: 90%;
+        max-width: 20rem;
+    }
+    #calendar {
+        display: none;
+    }
+    #author {
+        display: grid;
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #home-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #home-data-name {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    #home-motto {
+        display: grid;
+        grid-column: 1/2;
+        margin-top: -195px;
+    }
+
+    #home-year {
+        display: grid;
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: -155px;
+        font-size: 20px;
+    }
+
+    #home-pop {
+        display: grid;
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: -115px;
+        font-size: 20px;
+    }
+
+    #home-rain {
+        display: grid;
+        grid-column: 1/2;
+        text-align: center;
+        margin-top: -75px;
+        font-size: 20px;
+    }
+
+    .cards section:nth-child(2) img {
+        display: grid;
+        grid-column: 1/2;
+    }
+
+    .cards section:nth-child(2) #home-images {
+        display: grid;
+        grid-column: 1/2;
+        margin-top: -5.4rem;
+    }
+
+    .cards section:nth-child(2) #home-data-name {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .cards section:nth-child(2) #home-motto {
+        display: grid;
+        grid-column: 2/3;
+        margin-top: 10px;
+    }
+
+    .cards section:nth-child(2) #home-year {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .cards section:nth-child(2) #home-rain {
+        display: grid;
+        grid-column: 2/3;
+    }
+
+    .cards section:nth-child(2) #home-pop {
+        display: grid;
+        grid-column: 2/3;
+    }
+}
