@@ -205,12 +205,10 @@ header {
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 40px;
-  background-color: rgba(99, 6, 6, 0.966);
+  background-color: #333191;
   color: White;
   text-align: center;
   border-radius: 20px;
-  border-top: 6px solid brown;
-  border-bottom: 6px solid brown;
   padding: 0.5em;
   height: 55px;
   display: grid;
@@ -237,10 +235,8 @@ p {
   padding: 0.6em;
 }
 footer {
-  border-top: brown 6px solid;
-  border-bottom: solid 6px brown;
   border-radius: 15px;
-  background-color: rgba(99, 6, 6, 0.966);
+  background-color:#333191;
   text-align: center;
   display: grid;
   padding: 0.5em;
