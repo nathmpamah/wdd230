@@ -1,48 +1,45 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nathaniel Mpamah">
-    <meta name="description" content="Lesson 10 Homework">
-    <meta name="description2" content="Nate's Weather offers up-to-date weather forcast information for users.">
+    <meta name="description" content="Real Weather provides users with up to date weather information.">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Nate's Weather</title>
+    <title id="pagename">Fish Haven</title>
 </head>
 
 <body>
     <div id="message">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</div>
     <div id="page-container">
         <header>
-            <img id="image-logo" src="images/logo.png" alt="website logo">
+            <a href="index.html"><img id="image-logo" src="images/logo.png" alt="website logo"></a>
             <h1 class="title">Nate's Weather</h1>
-            <p id="motto">Look out before you step out...</p>
+            <p id="motto">Lookout before you step out...</p>
         </header>
         <nav>
             <ul id="nav" class="navigation">
                 <li><a class="ham" href="#">&#9776; Menu</a></li>
                 <li><a href="index.html">Home</a></li>
-                <li><a class="current" href="preston-10.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a class="current" href="fishhaven.html">Fish Haven</a></li>
                 <li><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery-7.html">Gallery</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
-        </nav>   
-            <div id="main-footer">
+        </nav>
+        <div id="main-footer">
             <main>
                 <div class="hero-div">
                             <picture>
                                 <source media="(max-width: 425px)" srcset="images/todd-diemer-425-cropped.jpg">
                                 <source media="(max-width: 745px)" srcset="images/todd-diemer-745-cropped.jpg">
-                                <img id="hero-img" src="images/banner.jpg" alt="Preston hero image.">
+                                <img id="hero-img" src="images/todd-diemer-960-cropped.jpg" alt="Preston hero image.">
                             </picture>
                     <section class="weather-overlay">
                         <h2 class="summary-title">Weather Summary</h2>
@@ -105,43 +102,49 @@
                         </div>
                     </div>
                 </section>
+                    <div class="town-events-grid">
+                        <h2 class="events-title">Upcoming Events</h2><hr class="events-rule">
+                    </div>
                 <section id="article-style">
                     <h2>What Will Opening Day of Hunting Look Like For You?</h2>
-                    <p>by weather-us.com</p>
-                    <img id="article-image" src="images/idaho-winter.jpg"
+                    <p>by Sam Felt</p>
+                    <img id="article-image" src="images/fredrik-small-400x280px.jpg"
                         alt="Image of people walking down a road while hunting.">
-                    <p>Idaho has diverse climate types, with a predominantly continental flavor in the central and eastern regions (Köppen climate classification Dsa, Dsb). The western portion has a maritime influence (Köppen Cfb, Csb) from the Pacific Ocean. 
-                        Idaho lies in the Pacific Northwest region of the United States. The state borders with Montana and Wyoming in the east, Utah, and Nevada in the south, Oregon and Washington in the west, and the Canadian province of British Columbia in the north. 
-                        The variation in topography, altitude, geography, and proximity to the Pacific Ocean influences the climate.<br>
-                        <br>
-                        Idaho, the Gem State, is home to rugged mountain ranges, grassy valleys, arid plains, and fertile lowlands. The average elevation is 1520 meters above sea level, with the highest point at 3859 meters at Borah Peak. 
-                        The landscape is rugged, and the state has one of the largest natural areas in the United States. The Sawtooth Range is prominent, while others such as the Bitterroot Range, White Cloud Mountains, Clearwater Mountains, 
-                        and stretches of the Rocky Mountains constitute the chiefly mountainous regions. The principal rivers are Snake, Clearwater, and Salmon, while the Snake River Plain in the south has fertile agricultural land. The panhandle and areas north of the 
-                        Salmon River follow the Pacific Time Zone, while the south lies in the Mountain Time Zone.</p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius nesciunt aliquid earum,
+                        repellat, dolor voluptate cum animi a quasi deleniti obcaecati. Odio consequuntur rem eaque
+                        officiis, esse non tempore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                        eius nesciunt aliquid earum, repellat, dolor voluptate cum animi a quasi deleniti obcaecati.
+                        Odio consequuntur rem eaque officiis, esse non tempore. Lorem, ipsum dolor sit amet consectetur
+                        adipisicing elit. Eligendi eius nesciunt aliquid earum, repellat, dolor voluptate cum animi a
+                        quasi deleniti obcaecati. Odio consequuntur rem eaque officiis, esse non tempore. Lorem, ipsum
+                        dolor sit amet consectetur adipisicing elit. Eligendi eius nesciunt aliquid earum, repellat,
+                        dolor voluptate cum animi a quasi deleniti obcaecati. Odio consequuntur rem eaque officiis, esse
+                        non tempore. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi eius nesciunt
+                        aliquid earum, repellat, dolor voluptate cum animi a quasi deleniti obcaecati. Odio consequuntur
+                        rem eaque officiis, esse non tempore.</p>
 
                 </section>
-
-                <div id="medium-size-grid">
-                    <div id="contact-information">
-                        <h3 id="location">Preston, Idaho 83263</h3>
-                        <img id="pin" src="images/pin.png" alt="A pin logo.">
-                        <h3 id="contact-title">Contact Information</h3>
-                        <img id="mail" src="images/mail.png" alt="A mail logo.">
-                        <p id="email">info@natesweather.com</p>
-                        <img id="phone" src="images/phone.png" alt="A phone logo.">
-                        <p id="phone-number">(208) 206-7932</p>
-                    </div>
-                    <div id="map">
-                        <img id="map-image" src="images/map.PNG" alt="Image of Preston, Idaho.">
-                    </div>
-                    <div id="social-grid">
-                        <img id="twitter" src="images/twitter-icon.png" alt="Twitter icon">
-                        <img id="facebook" src="images/facebook-icon.png" alt="Facebook icon">
-                        <img id="instagram" src="images/insta-icon.png" alt="Instagram icon">
-                    </div>
-                    
-                </div>
             </main>
+
+            <div id="medium-size-grid">
+                <div id="contact-information">
+                    <h3 id="location">Preston, Idaho 83263</h3>
+                    <img id="pin" src="images/pin.png" alt="A pin logo.">
+                    <h3 id="contact-title">Contact Information</h3>
+                    <img id="mail" src="images/mail.png" alt="A mail logo.">
+                    <p id="email">info@natesweather.com</p>
+                    <img id="phone" src="images/phone.png" alt="A phone logo.">
+                    <p id="phone-number">(208) 206-7932</p>
+                </div>
+                <div id="social-grid">
+                    <img id="twitter" src="images/twitter-icon.png" alt="Twitter icon">
+                    <img id="facebook" src="images/facebook-icon.png" alt="Facebook icon">
+                    <img id="instagram" src="images/insta-icon.png" alt="Instagram icon">
+                </div>
+                <div id="map">
+                    <img id="map-image" src="images/map-preston.png" alt="Google maps image of Preston, Idaho.">
+                </div>
+            </div>
 
             <footer>
                 
@@ -156,7 +159,10 @@
     <script src="js/hamburger-menu.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/five-day-forecast.js"></script>
-   
+    <script src="js/home-info-pop.js"></script>
+
+
+    
 </body>
 
 </html>

@@ -1,77 +1,95 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='description' content='Preston town weather forecast from Weather Check Website'>
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../lesson9/css/small.css">
-    <link rel="stylesheet" href="../lesson9/css/medium.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="shortcut icon" href="../lesson9/images/favicon.ico">
-    <title>Nate's Weather | Homepage</title>
+    <meta name="description" content="Real Weather provides users with up to date weather information.">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title id="pagename">Home</title>
 </head>
 
 <body>
-    <div id='content'>
+    <div id="page-container">
         <header>
-            <img class='logo' src="../lesson9/images/logo.png" alt="Nate's weather logo">
-            <h1>Weather Check</h1>
-            <div>Watchout before you step out.</div>
+            <a href="index.html"><img id="image-logo" src="images/logo.png" alt="website logo"></a>
+            <h1 class="title">Nate's Weather</h1>
+            <p id="motto">Lookout before you step out...</p>
         </header>
         <nav>
-            <ul class='navigation'>
-                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href="../lesson9/homepage.html">Homepage</a></li>
-                <li><a href="../lesson6/preston-6.html">Preston</a></li>
-                <li><a href="#">Soda Springs</a></li>
-                <li><a href="#">Fish Haven</a></li>
-                <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
-                <li><a href="../lesson7/gallery-7.html" class='active'>Gallery</a></li>
+            <ul id="nav" class="navigation">
+                <li><a class="ham" href="#">&#9776; Menu</a></li>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="preston.html">Preston</a></li>
+                <li><a href="sodasprings.html">Soda Springs</a></li>
+                <li><a href="fishhaven.html">Fish Haven</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-        <main>
-            <h2>Homepage</h2>
-            <section class='article'>
-                <img class='snowflake' src="../lesson9/images/bird.jpg" alt="bird image">
-                <h3>A Bird Came Down the Walk</h3>
-                <p class='author'>By Emily Dickinson</p>
-                <p class='poem'>A bird came down the walk: He did not know I saw; He bit an angle-worm in halvesAnd ate the<br>
-                    fellow, raw.And then he drank a dew From a convenient grass,And then hopped sidewise to the<br>
-                    wallTo let a beetle pass. He glanced with rapid eyesThat hurried all abroad, —They looked like<br>
-                    frightened beads, I thought; He stirred his velvet headLike one in danger; cautious,I offered him a<br>
-                    crumb,And he unrolled his feathersAnd rowed him softer homeThan oars divide the ocean,Too<br>
-                    silver for a seam, Or butterflies, off banks of noon, Leap, plashless, as they swim.<br>
-                    <br>
-                    </p>
-            </section>
+        <div id="main-footer">
+            <main>
+                <h2 class="home-title">Welcome Home</h2>
+                <picture>
+                    <source media="(max-width: 425px)" srcset="images/v2osk-425.jpg">
+                    <source media="(max-width: 745px)" srcset="images/v2osk-745.jpg">
+                    <img id="home-hero-img" src="images/v2osk-960.jpg" alt="Preston hero image.">
+                </picture>
+                <div id="my-content">
+                    <aside id="article">
+                        <img id="home-article-image" src="images/mario-alvarez-150x722.jpg" alt="sunny day in Preston">
+                        <h2 id="home-article-title">Wonders of Cache Valley</h2>
+                        <p id="author">By Charlie Adams</p>
+                        <p id="home-article-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                            quibusdam eum aperiam adipisci. Perferendis, quasi ea, dignissimos neque nemo officiis vitae
+                            cupiditate, expedita delectus ipsum sed? Necessitatibus error excepturi dolorem! Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Dolores quae nulla voluptatibus unde iure,
+                            esse ipsum, delectus velit recusandae aspernatur et illum dignissimos temporibus neque ad
+                            blanditiis voluptates veniam. Explicabo! Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quaerat fugit dolorum aliquid id, incidunt totam iure mollitia ullam quos impedit,
+                            voluptatem maiores eos delectus rem odio! Nam est officiis eaque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Aliquid quibusdam eum aperiam adipisci. Perferendis, quasi ea,
+                            dignissimos neque nemo officiis vitae cupiditate, expedita delectus ipsum sed?
+                            Necessitatibus error excepturi dolorem!<br><br>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+                            quibusdam eum aperiam adipisci. Perferendis, quasi ea, dignissimos neque nemo officiis vitae
+                            cupiditate, expedita delectus ipsum sed? Necessitatibus error excepturi dolorem! Lorem ipsum
+                            dolor, sit amet consectetur adipisicing elit. Dolores quae nulla voluptatibus unde iure,
+                            esse ipsum, delectus velit recusandae aspernatur et illum dignissimos temporibus neque ad
+                            blanditiis voluptates veniam. Explicabo! Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. 
+                        </p>
+                    </aside>
+                    <aside id="calendar">
+                        <h2 id="cal-title">Cache Area Calendar</h2>
+                        <p class="cal-items">Dec. 25th - Christmas Day </p>
+                        <p class="cal-items">Dec 31st - Preston Party</p>
+                        <p class="cal-items">Feb 14th - Soda Valentine Party</p>
+                        <p class="cal-items">Feb 17th - City Council Meeting</p>
+                        <p class="cal-items">Feb 25th - City Council Meeting</p>
+                        <p class="cal-items">March 17th - Fish Haven Ice Fishing Community Celebration</p>
+                    </aside>
+                </div>
+                <div class="cards"></div>
+            </main>
 
-            <section class='town'>
-                <div id='town1'></div>
-                <div id='town2'></div>
-                <div id='town3'></div>
-            </section>
-        </main>
-        <footer>
-            <div id="copyright">
-                &copy; <span id='year'></span> | Nathaniel Mpamah | Utah | <a href="https://www.byui.edu">BYU-Idaho</a>
-                <br><span id='current-date'></span>
-            </div>
-        </footer>
-        <script src="../lesson9/js/homepage.js"></script>
-        <script src='../lesson9/js/style.js'></script>
+            <footer id="gallery-footer">
+                &copy; <span id="copyright-year"></span> | Nate's Weather | Utah
+                <div><span id="current-date"></span></div>
+            </footer>
+        </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js">
-    </script>
-    <script>
-        WebFont.load({
-            google: {
-                families: ['Mukta', 'Sriracha']
-            }
-        });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/hamburger-menu.js"></script>
+    <script src="js/home-info-pop.js"></script>
+
 </body>
 
 </html>
