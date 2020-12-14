@@ -1,4 +1,3 @@
-
 // Footer date display.
 let d = new Date();
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
@@ -8,4 +7,3 @@ document.getElementById("current-date").innerHTML = days[d.getDay()] + ", " + d.
 
 // Copyright year for the footer.
 document.getElementById("copyright-year").innerHTML = (new Date().getFullYear());
-

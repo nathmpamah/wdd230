@@ -80,6 +80,7 @@
         padding: 10px;
         margin-bottom: 20px;
         border-radius: 5px;
+        
     }
 
     #contact-information {
@@ -120,7 +121,7 @@
     }
 
     footer {
-        height: 4rem;
+        height: 5rem;
     }
 
     #article-style {
