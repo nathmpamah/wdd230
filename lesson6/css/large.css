@@ -1,6 +1,57 @@
-@media screen and (min-width: 1020px) {
-    main
-     {
-
+@media only screen and (min-width: 960px) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+	.navigation a {
+        text-align: center;
+        padding: .6rem;
+	}
+	.navigation li:first-child {
+		display: none;
     }
- }
+    header {
+        grid-template-columns: 130px 1fr;
+    }
+    #image-logo {
+        max-width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .title {
+        font-size: 3em;
+        margin-top: 50px;
+    }
+    #motto {
+        margin-top: 105px;
+        padding-left: 3px;
+    }
+    main {
+        max-width: 960px;
+    }
+    #main-footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    footer {
+        max-width: 960px;
+    }
+    .hero-div {
+        position: relative;
+    }
+
+    .weather-overlay {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        width: 250px;
+    }
+
+    #article-image {
+       width: 400px; 
+       float: right;
+    }
+}
