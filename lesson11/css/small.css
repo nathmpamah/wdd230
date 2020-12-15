@@ -106,7 +106,7 @@ footer {
 nav {
 	margin: 0 auto;
 	max-width: 100%;
-	background-color:rgb(6, 174, 252);
+	background-color: #06aefc;
 }
 
 .navigation {
@@ -166,12 +166,12 @@ nav {
 }
 
 .table-values {
-    color: rgb(50, 49, 145);;
+    color: rgb(50, 49, 145);
     padding-left: 10px;
 }
 
 .weather-overlay {
-    background: radial-gradient(#323191, #323191);
+    background: radial-gradient(#06aefc, #44bef7);
 	border: 1px;
 	padding: 1rem;
 	box-shadow: 0 0 30px #111;
@@ -210,7 +210,7 @@ nav {
     text-align: center;
     font-size: 18px;
     margin: 0;
-    background-color: rgb(50, 49, 145);
+    background-color: #06aefc
 }
 
 #sun-1 {
@@ -239,7 +239,7 @@ nav {
     text-align: center;
     font-size: 18px;
     margin: 0;
-    background-color: rgb(50, 49, 145);
+    background-color: #06aefc;
 }
 
 #sun-2 {
@@ -268,7 +268,7 @@ nav {
     text-align: center;
     font-size: 18px;
     margin: 0;
-    background-color: rgb(50, 49, 145);
+    background-color: #06aefc;
 }
 
 #sun-3 {
@@ -297,7 +297,7 @@ nav {
     text-align: center;
     font-size: 18px;
     margin: 0;
-    background-color: rgb(50, 49, 145);
+    background-color: #06aefc;
 }
 
 #sun-4 {
@@ -327,7 +327,7 @@ nav {
     text-align: center;
     font-size: 18px;
     margin: 0;
-    background-color: rgb(50, 49, 145);
+    background-color: #06aefc;
 }
 
 #sun-5 {

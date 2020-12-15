@@ -2,7 +2,17 @@
 
 let forecastURL = "https://api.openweathermap.org/data/2.5/forecast?units=imperial&id=";
 
-let cityIdentification = "5604473";
+let cityIdentification = "";
+
+if (pagename == "Preston, Idaho") {
+    cityIdentification = "5604473";
+}
+else if (pagename == "Soda Springs, Idaho") {
+    cityIdentification = "5607916";
+}
+else {
+    cityIdentification = "5605242";
+}
 
 let APIkey = "2fcc76035c8ea35fae12e45da49246aa";
 

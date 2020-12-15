@@ -2,7 +2,19 @@
 
 let URL = "https://api.openweathermap.org/data/2.5/weather?units=imperial&id=";
 
-let cityID = "5604473";
+let cityID = "";
+
+let pagename = document.getElementById("pagename").innerHTML;
+
+if (pagename == "Preston, Idaho") {
+    cityID = "5604473";
+}
+else if (pagename == "Soda Springs, Idaho") {
+    cityID = "5607916";
+}
+else {
+    cityID = "5605242";
+}
 
 let key = "2fcc76035c8ea35fae12e45da49246aa";
 
@@ -34,8 +46,5 @@ fetch(apiURL)
             windChill = "n/a";
         }
 
-        document.getElementById("wind-chill").textContent = windChill.toFixed(0);
+        document.getElementById("wind-chill").textContent = Math.round(windChill);
     });
-
-
-
